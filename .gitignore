@@ -1,0 +1,4 @@
+crud_alumnos/
+.env
+**/__pycache__/
+**/*.pyc
