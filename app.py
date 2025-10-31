@@ -34,6 +34,8 @@ class Estudiante(db.Model):
             'semestre': self.semestre,
         }
 
+with app.app_context():
+    db.create_all()
 
 #Ruta raiz
 @app.route('/')
